@@ -20,7 +20,7 @@ html {
 * {
     margin: 0;
     padding: 0;
-    font-family: "Fira Sans", monospace;
+    font-family: "Fira Sans", sans-serif;
 }
 /*FONT STYLING: size, weight*/
 nav { /*will prob change to nav instead of header when adding in the logo*/
@@ -226,7 +226,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-    @media (min-width: 50em) {
+    @media (min-width: 55em) {
         .split .container.content-block-box {
         display: flex;
         flex-direction: row;
@@ -236,14 +236,6 @@ ul {
             margin-left: 2em;
         }
         
-        /*.topics-details {
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        .topics-details-box {
-            max-width: 40%;
-            
-        }*/
     }
     /*the image grid in topics*/
     #imgblock-topic {
@@ -274,11 +266,6 @@ ul {
     }
     #img-climber {
         max-width: 16em;
-    }
-    @media (min-width: 50em) {
-        #img-climber {
-            max-width: 16em;
-        }   
     }
     /*image in call to action*/
     .schedule img {
@@ -329,9 +316,8 @@ ul {
 .topics-details-box {
     margin-top: 5em;
 }
-/*.topics-details-box:first-child {
-    margin-top: 5em;
-}*/
+
+
 .topics-shortcuts ul{
     list-style: none;
     margin-left: 0;
