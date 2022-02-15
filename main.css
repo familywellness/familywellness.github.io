@@ -6,7 +6,7 @@ html {
 }
 
 :root {
-    --font-size-ratio: 0.8;
+    --font-size-ratio: 2;
     
     --bg-dark-blue: #0067c7;
     --bg-bright-blue: #DDF6F6;
@@ -144,11 +144,6 @@ p {
     margin-bottom: 4em;
     max-width: 12em;
 }
-@media (min-width: 60em){
-    .landing .subtitle {
-    margin-bottom: 2em;
-    }
-}
 #imgblock-topic .subtitle {
     max-width: 6em;
     margin: 0 auto;
@@ -226,17 +221,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-    @media (min-width: 40em) and (orientation: landscape){
-        .split .container.content-block-box {
-        display: flex;
-        flex-direction: row;
-        }
-
-        .content-block ~ .content-block {
-            margin-left: 2em;
-        }
-        
-    }
+ 
     /*the image grid in topics*/
     #imgblock-topic {
         display: grid;
@@ -368,3 +353,23 @@ body, html {
     grid-template-rows: auto 1fr auto;
     height: 100%;
 }
+
+   @media (min-width: 50em) and (orientation: landscape){
+        .split .container.content-block-box {
+        display: flex;
+        flex-direction: row;
+        }
+
+        .content-block ~ .content-block {
+            margin-left: 2em;
+        }
+        
+        .landing .subtitle {
+            margin-bottom: 2em;
+        }
+        
+        :root {
+            --font-size-ratio: 0.8;
+        }
+        
+    }
