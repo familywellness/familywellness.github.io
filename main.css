@@ -226,7 +226,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-    @media (min-width: 80em) {
+    @media (min-width: 40em) and (orientation: landscape){
         .split .container.content-block-box {
         display: flex;
         flex-direction: row;
