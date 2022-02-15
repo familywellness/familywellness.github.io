@@ -6,7 +6,7 @@ html {
 }
 
 :root {
-    --font-size-ratio: 2;
+    --font-size-ratio: 1;
     
     --bg-dark-blue: #0067c7;
     --bg-bright-blue: #DDF6F6;
@@ -149,7 +149,7 @@ p {
     margin: 0 auto;
 }
 .container.main-page {
-    padding: 5em 0;
+    padding: 10em 0;
 }
 .info-page-content {
     padding: 1em 0 6em;
