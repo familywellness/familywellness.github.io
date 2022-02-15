@@ -144,7 +144,7 @@ p {
     margin-bottom: 4em;
     max-width: 12em;
 }
-@media (min-width: 50em){
+@media (min-width: 40em){
     .landing .subtitle {
     margin-bottom: 2em;
     }
@@ -226,7 +226,7 @@ ul {
     display: flex;
     flex-direction: column;
 }
-    @media (min-width: 55em) {
+    @media (min-width: 40em) {
         .split .container.content-block-box {
         display: flex;
         flex-direction: row;
