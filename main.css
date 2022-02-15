@@ -26,7 +26,7 @@ html {
 nav { /*will prob change to nav instead of header when adding in the logo*/
     font-size: calc(1.2rem * var(--font-size-ratio));
 }
-header a {
+header a, button a {
     text-decoration: none;
 }
 h2 {
@@ -67,6 +67,9 @@ button {
 footer {
     font-size: calc(1.2rem * var(--font-size-ratio));
     padding: 1em;
+}
+.process-descript li {
+    font-size: calc(1.8rem * var(--font-size-ratio));
 }
 .list-header, .related-topics-list li{
     font-weight: 500;
